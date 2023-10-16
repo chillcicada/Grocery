@@ -1,0 +1,25 @@
+name: Update License Year
+
+on:
+  schedule:
+    - cron: '0 16 31 12 *' # Run on January 1st at midnight UTC+8
+
+jobs:
+  update-license-year:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Update license year
+        run: |
+          current_year=$(date +%Y)
+          find . -type f \( -name "LICENSE" -o -name "LICENSE.*" \) -exec sed -i "s/$(date +%Y --date='-1 year')-$current_year/$current_year/g" {} +
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -a -m "Update license year to $current_year"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
