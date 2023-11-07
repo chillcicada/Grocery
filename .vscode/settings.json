@@ -1,0 +1,212 @@
+{
+  "editor.inlineSuggest.enabled": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "redhat.telemetry.enabled": true,
+  "explorer.confirmDelete": false,
+  "git.suggestSmartCommit": false,
+  "vscode-edge-devtools.webhint": false,
+  "vs-kubernetes": {//$env:UserName
+    "vscode-kubernetes.helm-path.windows": "C:/Users/$env:UserName/.vs-kubernetes/tools/helm/windows-amd64/helm.exe",
+    "vscode-kubernetes.minikube-path.windows": "C:/Users/$env:UserName/.vs-kubernetes/tools/minikube/windows-amd64/minikube.exe",
+    "vscode-kubernetes.kubectl-path.windows": "C:/Users/$env:UserName/.vs-kubernetes/tools/kubectl/kubectl.exe",
+    "vscode-kubernetes.helm-path-windows": "C:/Users/$env:UserName/.vs-kubernetes/tools/helm/windows-amd64/helm.exe",
+    "vscode-kubernetes.kubectl-path-windows": "C:/Users/$env:UserName/.vs-kubernetes/tools/kubectl/kubectl.exe",
+    "vscode-kubernetes.minikube-path-windows": "C:/Users/$env:UserName/.vs-kubernetes/tools/minikube/windows-amd64/minikube.exe"
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "editor.minimap.autohide": true,
+  "editor.minimap.enabled": false,
+  "editor.indentSize": "tabSize",
+  "editor.tabSize": 2,
+  "editor.unicodeHighlight.allowedLocales": {
+    "ja": true,
+    "zh-hant": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.useEditorAsCommitInput": false,
+  "git.confirmSync": false,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "githubPullRequests.queries": [
+    {
+      "label": "正在等待我的审阅",
+      "query": "is:open review-requested:${user}"
+    },
+    {
+      "label": "分配给我",
+      "query": "is:open assignee:${user}"
+    },
+    {
+      "label": "由我创建",
+      "query": "is:open author:${user}"
+    }
+  ],
+  "git.autofetch": true,
+  "markdownlint.config": {
+    "MD024": false,
+    "MD033": false,
+    "MD034": false,
+    "MD041": false,
+    "MD045": false,
+    "MD032": false,
+    "MD007": false,
+    "MD025": false,
+    "MD026": false,
+    "MD028": false,
+    "MD029": false,
+    "MD037": false,
+  },
+  "window.commandCenter": true,
+  "remoteHub.commitDirectlyWarning": "off",
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "files.autoSave": "afterDelay",
+  "git.path": "D:/Git/bin/git.exe",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "beautify.options": {
+    "indent_size": 2,
+    "indent_char": " ",
+    "indent_with_tabs": false,
+    "eol": "\n",
+    "end_with_newline": true,
+    "indent_level": 0,
+    "preserve_newlines": true,
+    "max_preserve_newlines": 10,
+    "space_in_paren": false,
+    "space_in_empty_paren": false,
+    "jslint_happy": false,
+    "space_after_anon_function": false,
+    "space_after_named_function": false,
+    "brace_style": "collapse",
+    "unindent_chained_methods": false,
+    "break_chained_methods": false,
+    "keep_array_indentation": false,
+    "unescape_strings": false,
+    "wrap_line_length": 0,
+    "e4x": false,
+    "comma_first": false,
+    "operator_position": "before-newline",
+    "indent_empty_lines": false,
+    "eval_code": false,
+    "keep_function_indentation": false,
+    "space_before_conditional": true,
+    "wrap_attributes": "auto",
+    "wrap_attributes_indent_size": 4
+  },
+  "auto-close-tag.activationOnLanguage": [
+    "*"
+  ],
+  "auto-close-tag.enableAutoCloseSelfClosingTag": true,
+  "auto-close-tag.enableAutoCloseTag": true,
+  "auto-close-tag.fullMode": true,
+  "auto-close-tag.excludedTags": [
+    "area",
+    "base",
+    "br",
+    "col",
+    "command",
+    "embed",
+    "hr",
+    "img",
+    "input",
+    "keygen",
+    "link",
+    "meta",
+    "param",
+    "source",
+    "track",
+    "wbr"
+  ],
+  "C_Cpp.default.compilerPath": "d:\\mingw64\\bin\\gcc.exe",
+  "editor.bracketPairColorization.enabled": true,
+  "gitlens.views.tags.branches.layout": "list",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[fortran]": {
+    "editor.acceptSuggestionOnEnter": "off"
+  },
+  "[fortran_fixed-form]": {
+      "editor.acceptSuggestionOnEnter": "off"
+  },
+  "[FortranFreeForm]": {
+      "editor.acceptSuggestionOnEnter": "off"
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "code-runner.executorMap": {
+    "python":"$pythonPath $fullFileName",
+  },
+  "cSpell.userWords": [
+    "chillcicada",
+    "curseforge",
+    "esjzone",
+    "flashtext",
+    "frontmatter",
+    "Typecho",
+    "Typora",
+    "typst",
+    "Xftp",
+    "Xshell"
+  ],
+  "fortran.formatting.path": "D:/Python311/bin/findent.exe",
+  "fortran.fortls.path": "D:/Python311/Scripts/fortls.exe",
+  "files.associations": {
+    "*.F90": "FortranFreeForm"
+  },
+  "fortran.formatting.findentArgs": [
+    "-i2"
+  ],
+  "workbench.colorTheme": "Eva Dark Italic Bold", // qaq 用不了 vue.theme 主题 qaq
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          //following will be in italic
+          "comment",
+          "function",
+          "entity.name.type.class", //class names
+          "constant", //String, Number, Boolean…, this, super
+          "storage", //static keyword
+          "keyword" //import, export, return…
+        ],
+        "settings": {
+          "fontStyle": "italic bold"
+        }
+      }
+    ]
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.eol": "\n",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "githubPullRequests.pullBranch": "never",
+  "explorer.confirmDragAndDrop": false,
+  "[yaml]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+  
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "terminal.integrated.fontFamily": "MesloLGM Nerd Font Mono",
+  "[typst]": {
+    "editor.wordWrap": "on",
+    "editor.semanticHighlighting.enabled": true
+  },
+}
