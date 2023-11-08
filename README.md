@@ -12,7 +12,7 @@ Used to store some configs, scripts and sundries, for cc to archive and use.
 `scripts`: Some scripts
 
 - `.setup.ahk`: AutoHotKey script when setting up a new computer
-- `Microsoft.PowerShell_profile.ps1`: PowerShell configuration file when setting up a new teriminal
+- `Microsoft.PowerShell_profile.ps1`: PowerShell configuration file when setting up a new terminal
 - `nginx/`: Nginx configuration file and start/stop script
 
 `.vscode`: My VSCode configuration file and extensions list
