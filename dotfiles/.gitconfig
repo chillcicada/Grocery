@@ -1,0 +1,7 @@
+[user]
+	name = chillcicada
+	email = 2210227279@qq.com
+[core]
+	autocrlf = false
+[safe]
+	directory = C:/Users/hanchan/scoop/buckets/nerd-fonts
